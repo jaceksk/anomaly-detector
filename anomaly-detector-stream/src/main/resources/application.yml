@@ -1,0 +1,16 @@
+app:
+  detector: range
+
+spring.application.name: anomaly-detector-stream
+
+spring.cloud.stream.bindings.process-in-0:
+  destination: room-events
+spring.cloud.stream.bindings.process-out-0:
+  destination: anomaly
+
+
+spring:
+  kafka:
+    consumer:
+      properties:
+        spring.json.trusted.packages: "*"
