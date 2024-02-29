@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="653adc70-bf2b-441d-ac9c-cf32e06bf4f5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/anomaly-detector-query/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anomaly-detector-query/src/main/java/com/art/anomaly/detector/query/AnomalyDetectorQueryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anomaly-detector-query/src/main/java/com/art/anomaly/detector/query/board/KafkaProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anomaly-detector-query/src/main/java/com/art/anomaly/detector/query/board/KafkaProducerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anomaly-detector-query/src/main/java/com/art/anomaly/detector/query/board/api/TemperatureDetectorApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anomaly-detector-query/src/main/java/com/art/anomaly/detector/query/board/api/model/AnomalyDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anomaly-detector-query/src/main/java/com/art/anomaly/detector/query/board/api/model/RoomAnomaliesResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anomaly-detector-query/src/main/java/com/art/anomaly/detector/query/board/api/model/ThermometerAnomaliesResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anomaly-detector-query/src/main/java/com/art/anomaly/detector/query/board/api/model/ThermometersAnomalyStatisticResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anomaly-detector-query/src/main/java/com/art/anomaly/detector/query/board/model/TemperatureMeasurementEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anomaly-detector-query/src/main/java/com/art/anomaly/detector/query/board/model/TemperatureMeasurementMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anomaly-detector-query/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2ciOI3PVxZl0Y3JFf3occHW7fZO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AnomalyDetectorQueryApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.anomaly-detector [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.anomaly-detector [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.anomaly-detector-query [compile].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/jacek/IdeaProject/anomaly-detector/anomaly-detector-query&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/anomaly-detector-query" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/anomaly-detector-query/src/main/java/com/art/anomaly/detector/query" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AnomalyDetectorQueryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.art.anomaly.detector.query.AnomalyDetectorQueryApplication" />
+      <module name="anomaly-detector" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.art.anomaly.detector.query.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AnomalyDetectorQueryApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="653adc70-bf2b-441d-ac9c-cf32e06bf4f5" name="Changes" comment="" />
+      <created>1708590849203</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708590849203</updated>
+    </task>
+    <servers />
+  </component>
+</project>
